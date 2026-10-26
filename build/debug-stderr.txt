@@ -1,0 +1,9 @@
+Fatal Python error: PyEval_RestoreThread: the function must be called with the GIL held, after Python initialization and before Python finalization, but the GIL is released (the current Python thread state is NULL)
+Python runtime state: initialized
+
+Current thread 0x00001144 (most recent call first):
+  File "tkinter\__init__.py", line 1611 in mainloop
+  File "desktop_workbench.py", line 774 in main
+  File "desktop_workbench.py", line 778 in <module>
+
+Extension modules: numpy._core._multiarray_umath, numpy.linalg._umath_linalg, PIL._imaging (total: 3)
